@@ -1,0 +1,30 @@
+div {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.user_list {
+    border-collapse: collapse;
+}
+
+.user_list td {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.user_form input[type="text"], .user_form input[type="password"], .user_form input[type="button"], .user_form select{
+    display: block;
+    margin-bottom: 5px;
+    width: calc(100% - 8px);
+}
+
+.user_form input[type="button"] {
+    width: 100px;
+}
+
+.user_form select {
+    width: 208px;
+}
+.user_form {
+    width: 208px;
+}
